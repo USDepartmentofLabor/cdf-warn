@@ -1,0 +1,3 @@
+files:
+    state_ids:    config/FPIS_codes.csv
+    scrape_cfg:   config/WARN_config.csv
