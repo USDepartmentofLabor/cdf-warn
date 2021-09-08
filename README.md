@@ -53,3 +53,6 @@ NOTE: all the test scripts are obsolete, but they've been for reference.
     (1) trying to scrape only what is necessary from a state, and
     (2) providing a unique notice ID that is not dependent on when the entry was scraped, to allow for deduplication.
 For some states, the entire archive is in a single file/table, and otherwise for a monthly/quarterly scrape the entire most recent year's archive might need to be scraped. A workaround would be to specify a start date in `WARNSpider` and only yield `Item`s dated after that date, though that could miss updates to older notices depending on how the state denotes them. For states that do not already provide a WARN ID or employer ID, a state-specific unique ID could be generated from the fields (e.g., `f'{company}-{date}-{city}'`) that would be constant across scrapes.
+
+## Acknowledgements
+Developed by Lucia Korpas, Coding it Forward Fellow at the Bureau of Labor Statistics.
