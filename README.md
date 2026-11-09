@@ -1,3 +1,6 @@
+>[!WARNING]
+>This repository has been archived and is no longer maintained. The code is provided for historical reference and may contain unpatched or unknown vulnerabilities. It should ***not*** be used in production systems.
+
 # cdf-warn: Civic Digital Fellowship WARN Archive Scraping
 Scrape, parse, and normalize WARN notice archives from every state with public databases (or local files sent to BLS by state officials).
 
